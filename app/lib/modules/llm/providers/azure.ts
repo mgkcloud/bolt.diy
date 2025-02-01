@@ -14,7 +14,7 @@ export default class AzureProvider extends BaseProvider {
 
   // find more in https://github.com/marketplace?type=models
   staticModels: ModelInfo[] = [
-    { name: 'deepseek-reasoner', label: 'deepseek-reasoner', provider: 'Azure', maxTokenAllowed: 100000 },
+    { name: 'deepseek-reasoner', label: 'deepseek-reasoner', provider: 'Azure', maxTokenAllowed: 163840 },
   ];
 
   getModelInstance(options: {
